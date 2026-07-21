@@ -1,0 +1,9 @@
+#Lists 
+stu=["Soham",98.4,16,"Mumbai"]
+print(stu)
+print(stu[0])
+stu[1]=99.0
+print(stu)
+print(stu[1:3])
+print(stu[2:])
+print(stu[2:len(stu)])
