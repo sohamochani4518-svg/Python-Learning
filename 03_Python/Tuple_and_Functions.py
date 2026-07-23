@@ -1,0 +1,6 @@
+tup=("Soham",2,2,3,"Python")
+print(type(tup))
+print(tup[0:3])
+print(tup.index(2))
+print(tup.index("Python"))
+print(tup.count(2))
