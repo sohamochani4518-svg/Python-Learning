@@ -60,8 +60,11 @@ print("number 6 is :",num6)
 e=50
 f=30
 print (not True)
-print(not (a == b))
-print (not(a != b))
+print(not (e == f))
+print (not(e != f))
+
+print((e != f) and (e <= f) )
+print((e != f) or (e <= f) )
 
 print((e != f) and (e > f))
 print((e == f) or (e > f))

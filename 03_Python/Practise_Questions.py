@@ -13,11 +13,14 @@ list1 = [1,2,3,2,1]
 list_copy = list1.copy()
 list_copy.reverse()
 if(list_copy == list1):
-    print("The given list is apallindrome .")
+    print("The given list is a pallindrome .")
 else:
     print("The given list is not a pallindrome .")
 
+#WAP to calculate the number of students wuth A grade in the given tuple ,store these values in a list and arrange them in order
+tup=("C","D","A","A","B","B","B","A")
+print(tup.count( "A" ))
 
-
-
-
+grade=["C","D","A","A","B","B","B","A"]
+grade.sort()
+print(grade)
